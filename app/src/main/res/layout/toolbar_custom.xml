@@ -1,0 +1,27 @@
+<!-- res/layout/toolbar_custom.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end">
+
+    <ImageView
+        android:id="@+id/imageViewLauncherIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_foreground"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertor"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    android:layout_toStartOf="@id/imageViewLauncherIcon"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="8dp"/>
+
+</RelativeLayout>
